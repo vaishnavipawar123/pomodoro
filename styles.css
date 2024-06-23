@@ -1,0 +1,51 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #290a23;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgb(169, 146, 185);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#break-label, #session-label {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.control-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.control-group button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+#timer-label {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#time-left {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+#start_stop, #reset {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+}
